@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textColor="#0000D7"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imgPeriod"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/imgIntercorse"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/imgPregancy"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:visibility="invisible"  />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imgEnergy"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/imgHeadache"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/imgMood"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+</LinearLayout>
